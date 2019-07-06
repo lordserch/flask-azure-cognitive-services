@@ -1,6 +1,7 @@
 #Configuration file
 config.py
 config.js
+venv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
