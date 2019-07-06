@@ -45,6 +45,7 @@ virtualenv venv --python=python3
 ```
 
 3. Activate the virtual environment
+
 Windows - bash
 ```
 source venv/Scripts/activate
@@ -63,16 +64,13 @@ MacOS / Linux
 ```
 source venv/bin/activate
 ```
-4. Install requests module
-```
-pip install requests
-```
+4. Install requests module ```pip install requests```
 
-5. Install Flask
-```pip install Flask```
+5. Install Flask ```pip install Flask```
 
 6. Define the start file of the Flask app
-Windows
+
+In Windows
 ```
 set FLASK_APP=app.py
 ```
@@ -82,10 +80,7 @@ MacOS / Linux
 export FLASK_APP=app.py
 ```
 
-7. Run the flask app
-```
-flask run
-```
+7. Run the flask app ```flask run```
 
 8. Check there are no error messages after running the command. Open a browser and go the URL provided (normally is http://127.0.0.1:5000/). You should now be able to see the single page app. Enter some text, select a language to translate, analyze and then convert to speech. 
 
